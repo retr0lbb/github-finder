@@ -1,0 +1,134 @@
+:root{
+  --main-bg: #3F4E4F;
+  --bg-collor: none;
+  --con: #090D0C;
+  --text-color: #f2f2f2;
+
+  --gd: linear-gradient(40deg #0D19FF #090D0C )
+ 
+}
+
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+
+.container-app{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-bg);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+  background-color: var(--bg-collor);
+  width: 80%;
+  height: 70%;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 5em;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  background-color: var(--con);
+  border-radius: 35px;
+  box-shadow: black 5px 5px ;
+  height: 100%;
+  width: 30%;
+
+}
+.form h1{
+  color: aliceblue;
+}
+.form input{
+  position: static !important;;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: var(--bg-collor);
+  color: aliceblue;
+}
+.content, .content div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+  background-color: var(--con);
+  height: 100%;
+  border-radius: 15%;
+}
+.content div img{
+  width: 300px;
+  height: 300px;
+  padding: 0;
+
+  border: 8px solid #0D19FF;
+  border-radius: 50%;
+}
+.content div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px
+}
+.content h1{
+  display: grid;
+  place-self: center;
+  width: 500px;
+  text-align: center;
+  color: var(--text-color);
+}
+.content h2{
+  color: gray;
+  text-align: center;
+}
+.content p{
+  color: #f2f2f2;
+  text-align: center;
+}
+button{
+  padding: 10px 40px 10px 40px;
+  border: 3px solid #0D19FF ;
+  background-color: var(--con);
+  color: #f2f2f2;
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: #0D19FF;
+}
+.header-top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--con);
+  margin-bottom: 30px;
+  width: 85%;
+  padding: 30px;
+}
+.header-top h1{
+  color: #f2f2f2;
+}
