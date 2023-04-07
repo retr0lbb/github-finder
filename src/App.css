@@ -132,3 +132,7 @@ button:hover {
 .header-top h1{
   color: #f2f2f2;
 }
+.buttons{
+  display: flex;
+  gap: 2em;
+}

@@ -42,7 +42,10 @@ function App() {
           <div className="form">
             <h1>Buscador de perfis Github</h1>
             <input type="text" placeholder="Insira um perfil do Gighub" onChange={(e)=> setSearch(e.target.value)}/>
+            <div className='buttons'>
             <button onClick={handleSearch}>Buscar</button>
+            <a href={`https://github.com/${login}`} target='_blank'><button>ir Para</button></a>
+            </div>
           </div>
           <div className="content">
             <div>
